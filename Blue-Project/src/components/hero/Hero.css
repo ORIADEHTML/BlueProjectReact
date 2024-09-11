@@ -1,0 +1,65 @@
+.hero{
+    display: flex;
+    gap: 30px;
+    padding-inline: 60px;
+}
+.words{
+    width: 35vw;
+}
+.words h2{
+    color: #1818A6;
+}
+.words h1{
+    padding-top: 15px;
+}
+span{
+    display: block;
+}
+.words .find button{
+    height: 40px;
+    width: 12em;
+    border: 1px solid #1818A6;
+    background-color: #1818A6;
+    color: white;
+    position: relative;
+    padding-right: 20px;
+}
+.words .find{
+    padding-top: 4em;
+}
+.words .find img{
+    position: absolute;
+    top: 25.4em;
+    left: 11.7em;
+    height: 20px;
+    width: 20px;
+}
+.words .rating{
+    display: flex;
+    gap: 40px;
+    padding-top: 5em;
+}
+.words .rating h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: x-large;
+}
+.words .rating p{
+    font-weight: 500;
+}
+.white-building{
+    width: 30vw;
+    box-sizing: border-box;
+}
+.white-building img{
+   width: 28rem;
+   height: 37.4rem;
+}
+.both{
+    width: 23.3vw;
+}
+.both .sketch{
+    padding-top: 20px;
+}
+
+
