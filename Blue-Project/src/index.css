@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.jude-word{
+    border: 2px solid #b3b3e4;
+    width: 40em;
+    height: 15em;
+    align-content: center;
+    padding-inline: 40px;
+
+}
+.talkings{
+    background-image: url('/public/Images/talkingbg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.abouthouse img{
+    height: 34em;
+}
+.rating{
+    height: 6rem;
+    width: 30.5rem;
+    top: 38.3em;
+    left: 47em;
+}

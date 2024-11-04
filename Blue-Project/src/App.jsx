@@ -1,13 +1,13 @@
 import React from 'react'
-import Nav from './components/nav/Nav'
-import Hero from './components/hero/Hero'
-import aside from './components/aside/aside'
+import Home from './pages/home/Home'
+import About from './pages/about/About'
+
 
 const App = () => {
   return (
     <div>
-        <Nav />
-        <Hero />
+        {/* <Home /> */}
+        <About />
     </div>
   )
 }
