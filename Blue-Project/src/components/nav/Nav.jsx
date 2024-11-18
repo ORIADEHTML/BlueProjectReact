@@ -1,6 +1,5 @@
 import Logo from '/BLUES.png'
-
-
+import { Link } from 'react-router-dom'
 
 
 
@@ -11,11 +10,19 @@ const Nav = () =>{
                 <img src={Logo} alt="" />
             </div>
            <ul className='flex gap-10 list-none items-center'>
-                <li className='text-[#1818A6] border-b-2 border-[#1818A6]'><a href="">Home</a></li>
+                <li className='text-[#1818A6] border-b-2 border-[#1818A6]'>
+                    <Link to="/">Home</Link>
+                </li>
                 <div className='style flex gap-10'>
-                    <li><a href="">Agents</a></li>
-                    <li><a href="">Our Properties</a></li>
-                    <li><a href="">Contact Us</a></li>
+                    <li>
+                        <Link to="/about">Agent</Link>
+                    </li>
+                    <li>
+                        <Link to ="/properties">Our Properties</Link>
+                    </li>
+                    <li>
+                        <Link to="/contact">Contact Us</Link>
+                    </li>
                 </div>
            </ul>
            <div className='user flex gap-10 items-center'>
